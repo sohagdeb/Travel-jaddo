@@ -1,0 +1,54 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.volkhov{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Volkhov', serif;
+    font-size: 84px;
+    color: #181E4B;
+}
+.category-hover:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+ @media only screen and (max-width: 600px) { 
+
+    .volkhov{
+        font-size: 30px;  
+    }
+    .banner{
+        text-align: center;
+    }
+    .banner-img img{
+        width: 350px;
+        margin-top: 60px; 
+        opacity: 0.1;
+    }
+    .banner-img{
+        position: absolute;
+        z-index: 5;  
+    }
+    .banner-text{
+        position: relative;
+        z-index: 20;
+    }
+    
+  } 
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .banner-img img{
+        width: 500px;
+        margin-top: 60px; 
+        opacity: 0.3;
+    }
+    .banner-img{
+        position: absolute;
+        z-index: 5;  
+    }
+    .banner-text{
+        position: relative;
+        z-index: 20;
+    }
+
+  }
