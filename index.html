@@ -26,8 +26,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
               <a class="navbar-brand col-lg-6 d-flex align-items-center animate__animated animate__swing" href="#">
                 <img src="images/Jadoo.png" alt="" width="115px" height="34px">
               </a>
@@ -37,28 +37,29 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-lg-6 gap-4 d-flex align-items-center">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">DESTINATIONS</a>
+                    <a class="nav-link" href="#destination">DESTINATIONS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">HOTELS</a>
+                    <a class="nav-link" href="#contact">CONTACT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">FLIGHT</a>
+                    <a class="nav-link" href="#services">SERVICES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">BOOKING</a>
+                    <a class="nav-link" href="#destination">BOOKING</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">LOGIN</a>
+                    <a class="nav-link" href="#login">LOGIN</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><button type="button" class="btn btn-outline-info">SIGNUP</button></a>
+                    <a class="nav-link" href="#signup"><button type="button" class="btn btn-outline-info">SIGNUP</button></a>
                   </li>
                 </ul>
                 
               </div>
             </div>
           </nav>
+          <!-- banner -->
           <div class="banner">
             <div class="container">
                 <div class="row">
@@ -88,7 +89,7 @@
     </header>
     <main>
       <!-- login -->
-      <div class="container login mt-5 bg-info p-5 " data-aos="fade-down"
+      <div id="login" class="container login mt-5 bg-info p-5 " data-aos="fade-down"
       data-aos-offset="200"
       data-aos-delay="20"
       data-aos-duration="1000"
@@ -124,7 +125,7 @@
         </form>
       </div>
       <!-- category -->
-      <div style="text-align: center;" class="container mt-5">
+      <div id="services" style="text-align: center;" class="container mt-5">
         <p>CATEGORY</p>
         <h1 style="font-family: 'Poppins', sans-serif;font-family: 'Volkhov', serif;color: #181E4B;">We Offer Best Services</h1>
       </div>
@@ -201,14 +202,14 @@
         </div>
       </div>
       <!-- top-selling -->
-      <div style="text-align: center;" class="container mt-5">
+      <div id="destination" style="text-align: center;" class="container mt-5">
         <p>TOP SELLING</p>
         <h1 style="font-family: 'Poppins', sans-serif;font-family: 'Volkhov', serif;color: #181E4B;">Top Destination</h1>
       </div>
       <div class="top-selling mt-5">
         <div class="container">
           <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-lg-4 col-12 col-md-6 top-selling-hover" data-aos="flip-right"
+            <div class="col-lg-3 col-12 col-md-6 top-selling-hover" data-aos="flip-right"
             data-aos-offset="200"
             data-aos-delay="20"
             data-aos-duration="1000"
@@ -217,18 +218,18 @@
             data-aos-once="false"
             data-aos-anchor-placement="center">
               <div class="card h-100 selling" >
-                <img  src="images/italy.jpg" height="550px" class="card-img-top" alt="...">
+                <img  src="images/italy.jpg" height="540px" class="card-img-top" alt="...">
                 <div class="card-body d-flex justify-content-between" style="font-size: 20px;font-weight: bold;">
                   <h5 class="card-title">Rome,Italy</h5>
                   <p class="card-text">$5.4k</p>
                 </div>
-                <div class="card-footer " style="background-color: #FFFFFF;">
+                <div class="card-footer " style=" background-color: #FFFFFF;">
                   <i class="fas fa-location-arrow"></i>
                   <small>10 Days Trip</small>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-12 col-md-6 top-selling-hover" data-aos="flip-down"
+            <div class="col-lg-3 col-12 col-md-6 top-selling-hover " data-aos="flip-down"
             data-aos-offset="200"
             data-aos-delay="20"
             data-aos-duration="1000"
@@ -237,18 +238,18 @@
             data-aos-once="false"
             data-aos-anchor-placement="center">
               <div class="card h-100 selling" >
-                <img  src="images/london.jpg" height="550px" class="card-img-top" alt="...">
+                <img  src="images/london.jpg" height="540px" class="card-img-top" alt="...">
                 <div class="card-body d-flex justify-content-between" style="font-size: 20px;font-weight: bold;">
                   <h5 class="card-title">London,UK</h5>
                   <p class="card-text">$4.2k</p>
                 </div>
-                <div class="card-footer " style="background-color: #FFFFFF;">
+                <div class="card-footer " style=" background-color: #FFFFFF;">
                   <i class="fas fa-location-arrow"></i>
                   <small>12 Days Trip</small>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-12 col-md-6 top-selling-hover" data-aos="flip-left"
+            <div class="col-lg-3 col-12 col-md-6 top-selling-hover" data-aos="flip-left"
             data-aos-offset="200"
             data-aos-delay="20"
             data-aos-duration="1000"
@@ -257,7 +258,7 @@
             data-aos-once="false"
             data-aos-anchor-placement="center">
               <div class="card h-100 selling" >
-                <img  src="images/europe.jpg" height="550px" class="card-img-top" alt="...">
+                <img  src="images/europe.jpg" height="540px" class="card-img-top" alt="...">
                 <div class="card-body d-flex justify-content-between" style="font-size: 20px;font-weight: bold;">
                   <h5 class="card-title">Full Europe</h5>
                   <p class="card-text">$15k</p>
@@ -265,6 +266,26 @@
                 <div class="card-footer " style="background-color: #FFFFFF;">
                   <i class="fas fa-location-arrow"></i>
                   <small>28 Days Trip</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12 col-md-6 top-selling-hover" data-aos="flip-up"
+            data-aos-offset="200"
+            data-aos-delay="20"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="center">
+              <div class="card h-100 selling" >
+                <img  src="images/canada.jpg" height="540px" class="card-img-top" alt="...">
+                <div class="card-body d-flex justify-content-between" style="font-size: 20px;font-weight: bold;">
+                  <h5 class="card-title">Canada</h5>
+                  <p class="card-text">$5k</p>
+                </div>
+                <div class="card-footer " style="background-color: #FFFFFF;">
+                  <i class="fas fa-location-arrow"></i>
+                  <small>10 Days Trip</small>
                 </div>
               </div>
             </div>
@@ -299,7 +320,7 @@
         </div>
       </div>
       <!-- form -->
-      <div class="container form bg-warning p-5 mt-5">
+      <div id="signup" class="container form bg-warning p-5 mt-5">
         <h1 class="volkhov" style="font-size: 40px; text-align: center;">SIGN UP</h1>
         <form class="row g-3">
           <div class="col-md-6">
@@ -356,6 +377,39 @@
       </div>
 
     </main>
+    <footer>
+      <div id="contact" class="container mt-5">
+        <div class="row" >
+          <div class="col-lg-3 footer-anchor">
+            <h1>Jadoo.</h1>
+            <p>Book your trip in minute,get full <br> control for mutch longer</p>
+          </div>
+          <div class="col-lg-2 footer-anchor">
+            <h3>Compnany</h3><br>
+            <p><a href="#">About</a></p>
+            <p><a href="#">Carrers</a></p>
+            <p><a href="#">Mobile</a></p>
+          </div>
+          <div class="col-lg-2 footer-anchor">
+            <h3>Contact</h3><br>
+            <p><a href="#">Help/FAQ</a></p>
+            <p><a href="#">Press</a></p>
+            <p><a href="#">Affilates</a></p>
+          </div>
+          <div class="col-lg-2 footer-anchor">
+            <h3>More</h3><br>
+            <p><a href="#">Airelinefees</a></p>
+            <p><a href="#">Airline</a></p>
+            <p><a href="#">Low fare tips</a></p>
+          </div>
+          <div class="col-lg-3 footer-anchor">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
     
 
     <!-- js -->
