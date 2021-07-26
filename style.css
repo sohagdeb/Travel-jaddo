@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     
 }
+
 .banner-img img{
     width: 600px;
 }
@@ -12,10 +13,46 @@ body{
     font-size: 84px;
     color: #181E4B;
 }
-.category-hover{
+.category-hover:hover i{
+    transform:scale(1.5) ;
+    transition:0.5s linear 0.5s;
     cursor: pointer;
 }
+.category-hover:hover{
+    transform:scale(1.1) ;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.selling { 
+    display: inline-block; 
+    overflow: hidden; 
+    cursor: pointer;
+  }
+  .selling img {
+    display: block; 
+    transition: .3s ease-in-out;
+  }
+  .selling img:hover{
+    transform: scale(1.2);
+    cursor: zoom-in;
+  }
+  .advertise{
+      margin-top: 200px;
+  }
+  .advertise-hover:hover{
+    transform:rotateX(360deg);
+    transition:1.5s;
+  }
+  .advertise-hover:hover img{
+    transform: scale(2);
+    transition:0.5s linear 1.5s;
+  }
+
+
  @media only screen and (max-width: 600px) { 
+    
     .volkhov{
         font-size: 30px;  
     }
