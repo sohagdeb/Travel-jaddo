@@ -1,6 +1,5 @@
 body{
     font-family: 'Poppins', sans-serif;
-    
 }
 .banner{
     margin-top: 50px;
@@ -16,31 +15,12 @@ body{
     font-size: 84px;
     color: #181E4B;
 }
-.category-hover:hover i{
-    transform:scale(1.5) ;
-    transition:0.5s linear 0.5s;
-    cursor: pointer;
-}
+
 .category-hover:hover{
-    transform:scale(1.1) ;
-    transition: 0.5s;
     cursor: pointer;
-}
+} 
 
 
-.selling { 
-    display: inline-block; 
-    overflow: hidden; 
-    cursor: pointer;
-  }
-  .selling img {
-    display: block; 
-    transition: .3s ease-in-out;
-  }
-  .selling img:hover{
-    transform: scale(1.2);
-    cursor: zoom-in;
-  }
   .advertise{
       margin-top: 200px;
   }
